@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClassProp", "DemoClassProp\DemoClassProp.csproj", "{AA80412F-6A53-499D-BE5E-1DF887B1DAAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoClassProp", "DemoClassProp\DemoClassProp.csproj", "{AA80412F-6A53-499D-BE5E-1DF887B1DAAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 DemoClassProp", "1 DemoClassProp", "{ED823B0E-51F5-485D-B491-C42632A13FB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Indexeurs", "2 Indexeurs", "{A0AD9913-21FA-4756-8AA6-EC87BB8630F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IIndexeurs", "IIndexeurs\IIndexeurs.csproj", "{2340B98E-E8B4-4081-AC49-61351F44346B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexeurs", "IIndexeurs\Indexeurs.csproj", "{2340B98E-E8B4-4081-AC49-61351F44346B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 SurchargeOperateurs", "3 SurchargeOperateurs", "{6332CDB8-A0C0-402C-A2A4-A38B0BD33B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurchargeOperateurs", "SurchargeOperateurs\SurchargeOperateurs.csproj", "{0743EBE3-4EDD-44BA-A786-D7E97723D3A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{2340B98E-E8B4-4081-AC49-61351F44346B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2340B98E-E8B4-4081-AC49-61351F44346B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2340B98E-E8B4-4081-AC49-61351F44346B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0743EBE3-4EDD-44BA-A786-D7E97723D3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0743EBE3-4EDD-44BA-A786-D7E97723D3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0743EBE3-4EDD-44BA-A786-D7E97723D3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0743EBE3-4EDD-44BA-A786-D7E97723D3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AA80412F-6A53-499D-BE5E-1DF887B1DAAC} = {ED823B0E-51F5-485D-B491-C42632A13FB5}
 		{2340B98E-E8B4-4081-AC49-61351F44346B} = {A0AD9913-21FA-4756-8AA6-EC87BB8630F9}
+		{0743EBE3-4EDD-44BA-A786-D7E97723D3A6} = {6332CDB8-A0C0-402C-A2A4-A38B0BD33B84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEDB9E7A-F559-4C49-9244-2937F13FD823}
